@@ -1,0 +1,26 @@
+{
+  "name": "pocket-company",
+  "version": "0.0.1",
+  "description": "pocket-company",
+  "main": "index.js",
+  "private": true,
+  "author": "Jonas Grunau",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonasGrunau/pocket-company.git"
+  },
+  "dependencies": {
+    "@material-ui/core": "^1.3.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
