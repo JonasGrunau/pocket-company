@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Screen from "./components/Screen";
+import App from "./components/App";
 import registerServiceWorker from "./registerServiceWorker";
 
-ReactDOM.render(<Screen/>, document.getElementById("root"));
+ReactDOM.render(<App/>, document.getElementById("root"));
 registerServiceWorker();
