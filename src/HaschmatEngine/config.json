@@ -1,0 +1,13 @@
+{
+  "assets": {
+    "tileSets": [
+      "assets/tileset_0.png"
+    ],
+    "sprites": {
+      "character": [
+        "assets/player_0.png"
+      ],
+      "items": []
+    }
+  }
+}

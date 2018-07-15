@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import PropTypes from "prop-types";
 import LoadingScreen from "./LoadingScreen";
 import {withStyles} from "@material-ui/core";
-import Engine from "./../HaschmatEngine/Engine";
+import Engine from "../HaschmatEngine/engine";
 
 const styles = ({
     root: {
@@ -20,10 +20,8 @@ class Screen extends Component {
     componentDidMount() {
         const canvas = this.canvasRef.current;
         const context = canvas.getContext("2d");
-        const engine = new Engine(context);
 
-        const tileset = document.getElementById("tileset");
-        engine.initialize(tileset, this.props.scale);
+        const engine = new Engine(this.props.width, this.props.height, this.props.scale, context);
         engine.start();
     }
 
